@@ -76,14 +76,32 @@ h2{
     border-radius: 100%;
 }
 
+.circle-red{
+    border: 1px solid red;
+    color: red;
+}
+
 .tag {
     display: inline-block;
     color: #ffffff;
     font-size: 12px;
     padding: 8px 12px;
     border-radius: 12px;
+    margin-bottom: 15px;
 }
 
 .tag-azure{
     background-color: #14AAF5;
+}
+
+.tag-violet{
+    background-color: #ab5de6;
+}
+
+.tag-green{
+    background-color: #2CC6AB;
+}
+
+.tag-yellow{
+    background-color: #FF9B00;
 }
