@@ -28,3 +28,33 @@ h1 {
 .logo {
     vertical-align: middle;
 }
+
+/*Main*/
+main {
+    background-color: #ffffff;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.btn-blue {
+    background-color: #14AAF5;
+    color: #ffffff;
+    border-color: #14AAF5;
+}
+
+.btn-gray{
+    color: #C4CBD0;
+    border-color: #C4CBD0;
+}
+
+
