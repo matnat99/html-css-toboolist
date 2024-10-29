@@ -33,7 +33,6 @@ h1 {
 main {
     background-color: #ffffff;
     width: 800px;
-    height: 800px;
     margin: auto;
     border-radius: 8px;
     padding: 20px;
@@ -44,6 +43,7 @@ main {
     border: 1px solid;
     padding: 10px;
     border-radius: 6px;
+    margin-bottom: 30px;
 }
 
 .btn-blue {
@@ -104,4 +104,13 @@ h2{
 
 .tag-yellow{
     background-color: #FF9B00;
+}
+
+.tag-pink{
+    background-color: #EC4A9D;
+    margin-top: 15px;
+}
+
+.tag-lime{
+    background-color: #A3D116;
 }
