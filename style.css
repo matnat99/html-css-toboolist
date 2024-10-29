@@ -4,3 +4,27 @@
     margin: 0;
     padding: 0;
 }
+
+/*General*/
+body {
+    background-color: #ccc;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+header {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.logo {
+    vertical-align: middle;
+}
