@@ -11,6 +11,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /*Header*/
 header {
     background-color: #ffffff;
@@ -32,9 +36,13 @@ h1 {
 /*Main*/
 main {
     background-color: #ffffff;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     border-radius: 8px;
+}
+
+.button-list{
+    border-bottom: 1px solid #ccc;
     padding: 20px;
 }
 
@@ -43,7 +51,7 @@ main {
     border: 1px solid;
     padding: 10px;
     border-radius: 6px;
-    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .btn-blue {
@@ -57,12 +65,15 @@ main {
     border-color: #C4CBD0;
 }
 
-section{
-    margin-bottom: 30px;
+.sections{
+    padding: 20px;
 }
+
 
 h2{
     color: #434851;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .circle{
