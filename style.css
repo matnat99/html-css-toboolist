@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 /*General*/
 body {
     background-color: #ccc;
@@ -15,67 +16,8 @@ ul{
     list-style-type: none;
 }
 
-/*Header*/
-header {
-    background-color: #ffffff;
-    padding: 15px 20px;
-    margin-bottom: 40px;
-}
 
-h1 {
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: 900;
-    font-size: 40px;
-}
-
-.logo {
-    vertical-align: middle;
-}
-
-/*Main*/
-main {
-    background-color: #ffffff;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 8px;
-}
-
-.button-list{
-    border-bottom: 1px solid #ccc;
-    padding: 20px;
-}
-
-.btn {
-    background: transparent;
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.btn-blue {
-    background-color: #14AAF5;
-    color: #ffffff;
-    border-color: #14AAF5;
-}
-
-.btn-gray{
-    color: #C4CBD0;
-    border-color: #C4CBD0;
-}
-
-.sections{
-    padding: 20px;
-}
-
-
-h2{
-    color: #434851;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
+/*Components*/
 .circle{
     display: inline-block;
     height: 20px;
@@ -99,6 +41,69 @@ h2{
     padding: 8px 12px;
     border-radius: 12px;
     margin-bottom: 15px;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*Header*/
+header {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+
+/*Main*/
+main {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.button-list{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.btn-blue {
+    background-color: #14AAF5;
+    color: #ffffff;
+    border-color: #14AAF5;
+}
+
+.btn-gray{
+    color: #C4CBD0;
+    border-color: #C4CBD0;
+}
+
+.sections{
+    padding: 20px;
+}
+
+
+h2{
+    color: #434851;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .tag-azure{
